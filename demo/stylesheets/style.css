@@ -1,0 +1,29 @@
+body {
+    background-color: #cccccc;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+button {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.0em;    
+}
+
+div#imageRotator {
+    height: 100px;
+    width: 100px;
+}
+
+div#imageRotator img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

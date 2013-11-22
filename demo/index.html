@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing Tests</title>
+        
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+        
+        <script src="scripts/jquery-1.10.2.js"></script>
+        <script src="../imageRotator.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+                var $imageDiv = $("#imageRotator");
+                var $imageRotator = $imageDiv.imageRotator({
+                    imageTime: 3000,
+                    fadeTime: 2000
+                });
+                $imageRotator.start();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="imageRotator">
+            <img src="logos/bill.com.png" />
+            <img src="logos/eloqua.png" />
+            <img src="logos/facebook.png" />
+            <img src="logos/intacct.png" />
+            <img src="logos/netsuite.png" />
+            <img src="logos/quickbooks.png" />
+            <img src="logos/salesforce.png" />
+            <img src="logos/zendesk.png" />
+        </div>
+    </body>
+</html>
