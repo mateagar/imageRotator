@@ -6,21 +6,23 @@
         "name": "Matthew Eagar",
         "url": "https://github.com/mateagar/"
     },
-    "licenses": {
-		"type": "MIT",
-		"url": "https://github.com/mateagar/imageRotator/blob/master/LICENSE"
-	},
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/mateagar/imageRotator/blob/master/LICENSE"
+        }
+    ],
     "dependencies": {
-		"jquery": ">=1.5"
-	},
+        "jquery": ">=1.5"
+    },
     "description": "Lightweight jQuery plugin that crossfades through a series of images.",
     "keywords": [
-		"image",
-		"carousel",
-		"rotator",
-		"crossfade",
-		"animation"
-	],
+        "image",
+        "carousel",
+        "rotator",
+        "crossfade",
+        "animation"
+    ],
     "homepage": "https://github.com/mateagar/imageRotator",
     "docs": "https://github.com/mateagar/imageRotator",
     "download": "https://raw.github.com/mateagar/imageRotator/master/imageRotator.min.js"
