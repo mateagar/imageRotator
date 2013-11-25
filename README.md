@@ -42,7 +42,7 @@ $.fn.imageRotator.defaults.imageTime = 2000;
 `imageRotator` Methods
 ----------------------
 
-###imageRotator(options)###  
+###imageRotator(options)###
 Creates a new image rotator and binds it to the `<div>` on which this method is called. If invoked more than once on the same jQuery object, will return a single instance; however, if you create a new jQuery object for the same div, you will end up with more than one image rotator.
 
 **parameters**  
@@ -51,7 +51,7 @@ Creates a new image rotator and binds it to the `<div>` on which this method is 
 **returns**  
 The image rotator instance.
 
-###getOptions()###  
+###getOptions()###
 Retrieves the options for this image rotator instance.
 
 **parameters**  
@@ -60,7 +60,7 @@ Retrieves the options for this image rotator instance.
 **returns**  
 An object containing the configuration parameters for the instance.
 
-###getImages()###  
+###getImages()###
 Returns an array of jQuery objects, each wrapping one of the `<img>` tags within the image rotator `<div>`. 
 
 **parameters**  
